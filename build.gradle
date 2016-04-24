@@ -63,6 +63,7 @@ shadowJar {
         include dependency('net.minecrell.mcstats:statslite-sponge')
     }
     relocate 'net.minecrell.mcstats', 'net.foxdenstudio.sponge.foxguard.mcstats'
+    relocate 'org.mapdb', 'net.foxdenstudio.shadow.mapdb'
 }
 
 artifacts {
